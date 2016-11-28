@@ -1,0 +1,22 @@
+<!doctype html>
+<html class="w-100 sans-serif">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <title><%= current_page.data.title || "Tech Conference" %></title>
+    <link href="https://fonts.googleapis.com/css?family=Sumana" rel="stylesheet">
+    <%= stylesheet_link_tag :site %>
+  </head>
+  <body class="<%= page_classes %>">
+    <div class="flex">
+      <%= partial "nav" %>
+      <section class="pl7-ns">
+        <div class="mw7 pa4 md-content">
+          <%= yield %>
+        </div>
+      </section>
+    </div>
+  </body>
+  <%= javascript_include_tag :all %>
+</html>

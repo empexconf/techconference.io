@@ -1,0 +1,22 @@
+{
+  "name": "techconference.io",
+  "version": "1.0.0",
+  "description": "Something new",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empirecityelixir/techconference.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/empirecityelixir/techconference.io/issues"
+  },
+  "homepage": "https://github.com/empirecityelixir/techconference.io#readme",
+  "dependencies": {
+    "tachyons-sass": "^4.5.6"
+  }
+}

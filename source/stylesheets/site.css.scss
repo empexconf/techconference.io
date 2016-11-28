@@ -1,0 +1,59 @@
+@charset "utf-8";
+@import "../../node_modules/tachyons-sass/tachyons.scss";
+
+.tracked-mid {
+  letter-spacing: .05rem;
+}
+
+.md-content {
+  > h1, > h2, > h3, > h4 {
+    @extend .mt0;
+  }
+
+  h1 {
+    @extend .f2;
+  }
+
+  h2 {
+    @extend .f3;
+  }
+
+  h3 {
+    @extend .f4;
+  }
+
+  > p {
+    @extend .f5;
+    @extend .lh-copy;
+  }
+
+  > blockquote {
+    @extend .georgia;
+    @extend .pl3;
+    @extend .ml0;
+    @extend .bw2;
+    @extend .bl;
+    @extend .b--gray;
+    @extend .f4;
+    @extend .i;
+  }
+
+  > ul,
+  > ol {
+    @extend .list;
+    @extend .pl0;
+    @extend .mb4;
+
+    li {
+      @extend .mb2;
+    }
+  }
+
+  pre {
+    @extend .code;
+  }
+}
+
+.sumana {
+  font-family: 'Sumana', serif;
+}
